@@ -53,6 +53,7 @@
 
 ### 실행결과
 ![variable.png](snapshot/variable.png)
+<br>
 [Variable 전체 코드 보러 가기](src/main/kotlin/sample/VariableSample.kt)
 ***
 > ## 2. 조건문
@@ -127,6 +128,7 @@ if (score in 90..100) {
 ```
 ### 실행결과
 ![conditional.png](snapshot/conditional.png)
+<br>
 [Conditional 전체 코드 보러 가기](src/main/kotlin/sample/ConditionalSample.kt)
 ***
 > ## 3. 반복문
@@ -158,4 +160,5 @@ for (i in 0..10 step 2) {
 
 ### 실행결과 
 ![loop.png](snapshot/loop.png)
+<br>
 [Loop 전체 코드 보러 가기](src/main/kotlin/sample/LoopSample.kt)
