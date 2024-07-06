@@ -53,6 +53,7 @@
 
 ### 실행결과
 ![variable.png](snapshot/variable.png)
+[Variable 전체 코드 보러 가기](src/main/kotlin/sample/VariableSample.kt)
 ***
 > ## 2. 조건문
 
@@ -125,5 +126,36 @@ if (score in 90..100) {
   }
 ```
 ### 실행결과
-![variable.png](snapshot/conditional.png)
+![conditional.png](snapshot/conditional.png)
+[Conditional 전체 코드 보러 가기](src/main/kotlin/sample/ConditionalSample.kt)
 ***
+> ## 3. 반복문
+ - `do-while`, `while` 문은 기존 자바와 차이가 없다.
+### `for 문`
+### 코드
+```kotlin
+/* 범위 반복 */
+for (i in 1..5) {
+    println(i)
+}
+
+/* 컬렉션 반복 */ 
+val fruits = listOf("apple", "banana", "cherry")
+for (fruit in fruits) {
+    println(fruit)
+}
+
+/* 역순 반복 */ 
+for (i in 5 downTo 1) {
+    println(i)
+}
+
+/* 증감 단계 지정 */ 
+for (i in 0..10 step 2) {
+    println(i)
+}
+```
+
+### 실행결과 
+![loop.png](snapshot/loop.png)
+[Loop 전체 코드 보러 가기](src/main/kotlin/sample/LoopSample.kt)
